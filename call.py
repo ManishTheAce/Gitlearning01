@@ -38,7 +38,7 @@ def main():
             break
 
         num2_input = input("Enter second number: ")
-        if num2_input.lower() == 'exit':
+        if num2_input.lower() == 'Exit':
             break
 
         try:
