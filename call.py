@@ -12,7 +12,11 @@ def calculate(num1, operator, num2):
         return num1 * num2
     elif operator == '/':
         if num2 == 0:
+<<<<<<< HEAD
             return "ERROR: division by zero not allowed"
+=======
+            return "Cannot divide by zero"
+>>>>>>> branch-a
         return num1 / num2
     elif operator == '%':
         if num2 == 0:
