@@ -3,6 +3,8 @@ Simple Command-Line Calculator
 Supports: +, -, *, /, % (modulus), ** (power)
 """
 
+print("--------------Calculator---------------------")
+
 def calculate(num1, operator, num2):
     if operator == '+':
         return num1 + num2
@@ -38,7 +40,7 @@ def main():
             break
 
         num2_input = input("Enter second number: ")
-        if num2_input.lower() == 'exit':
+        if num2_input.lower() == 'Exit':
             break
 
         try:
