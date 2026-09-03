@@ -2,7 +2,7 @@
 Simple Command-Line Calculator
 Supports: +, -, *, /, % (modulus), ** (power)
 """
-print("-----------------Calculators----------------")
+print("-----------------Calculator----------------")
 
 def calculate(num1, operator, num2):
     if operator == '+':
